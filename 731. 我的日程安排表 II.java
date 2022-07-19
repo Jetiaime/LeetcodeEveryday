@@ -5,7 +5,7 @@ class MyCalendarTwo {
     public MyCalendarTwo() {
         odt = new ODT();
     }
-    
+
     public boolean book(int start, int end) {
         return odt.add(start, end - 1, 1);
     }
